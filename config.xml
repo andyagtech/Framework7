@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id= "com.phonegap.doggr" versionCode="2" version = "2.0.0">
+		<name>Taban and Andy Test</name>
+		<description>Testing our kickass app on the phonegap/Framework7 platform!</description>
+		<author href="http://www.andy-barr.com" email="el.andy.barr@gmail.com">Andy and Taban Tag Team</author>
+		<preference name="phonegap-version" value="3.4.0" />
+		<preference name="orientation" value="default" />
+		<preference name="fullscreen" value="true" />
+		<preference name="target-device" value="universal" />
+		<preference name="webviewbounce" value="true" />
+		<preference name="prerendered-icon" value="true" />
+		<preference name="stay-in-webview" value="true" />
+		<preference name="ios-statusbarstyle" value="black-opaque" />
+		<preference name="detect-data-types" value="true" />
+		<preference name="exit-on-suspend" value="true" />
+		<preference name="show-splash-screen-spinner" value="true" />
+		<preference name="auto-hide-splash-screen" value="true" />
+		<preference name="EnableViewportScale" value="false" />
+		<preference name="MediaPlaybackRequiresUserAction" value="false" />
+		<preference name="AllowInlineMediaPlayback" value="false" />
+		<preference name="BackupWebStorage" value="cloud" />
+		<preference name="TopActivityIndicator" value="gray" />
+		<preference name="KeyboardDisplayRequiresUserAction" value="true" />
+		<preference name="HideKeyboardFormAccessoryBar" value="false" />
+		<preference name="SuppressesIncrementalRendering" value="false" />
+		<preference name="android-minSdkVersion" value="14" />
+		<preference name="android-targetSdkVersion" value="14" />
+		<preference name="android-installLocation" value="auto" />
+		<preference name="ErrorUrl" value=""/>
+		<preference name="BackgroundColor" value=""/>
+		<preference name="KeepRunning" value="true"/>
+		<preference name="DisallowOverscroll" value="false"/>
+		<preference name="LoadUrlTimeoutValue" value="20000" />
+		<preference name="disable-cursor" value="true" />
+		<gap:platform name="android" />
+		<feature name="http://api.phonegap.com/1.0/battery"/>
+		<feature name="http://api.phonegap.com/1.0/camera"/>
+		<feature name="http://api.phonegap.com/1.0/contacts"/>
+		<feature name="http://api.phonegap.com/1.0/file"/>
+		<feature name="http://api.phonegap.com/1.0/geolocation"/>
+		<feature name="http://api.phonegap.com/1.0/media"/>
+		<feature name="http://api.phonegap.com/1.0/network"/>
+		<feature name="http://api.phonegap.com/1.0/notification"/>
+		<feature name="http://api.phonegap.com/1.0/device"/>
+		<gap:plugin name="org.apache.cordova.battery-status"  />
+		<gap:plugin name="org.apache.cordova.camera"  />
+		<gap:plugin name="org.apache.cordova.console"  />
+		<gap:plugin name="org.apache.cordova.contacts"  />
+		<gap:plugin name="org.apache.cordova.device"  />
+		<gap:plugin name="org.apache.cordova.device-motion"  />
+		<gap:plugin name="org.apache.cordova.device-orientation"  />
+		<gap:plugin name="org.apache.cordova.dialogs"  />
+		<gap:plugin name="org.apache.cordova.file"  />
+		<gap:plugin name="org.apache.cordova.file-transfer"  />
+		<gap:plugin name="org.apache.cordova.geolocation"  />
+		<gap:plugin name="org.apache.cordova.globalization"  />
+		<gap:plugin name="org.apache.cordova.inappbrowser"  />
+		<gap:plugin name="org.apache.cordova.media"  />
+		<gap:plugin name="org.apache.cordova.media-capture"  />
+		<gap:plugin name="org.apache.cordova.network-information"  />
+		<gap:plugin name="org.apache.cordova.splashscreen"  />
+		<gap:plugin name="org.apache.cordova.vibration"  />
+		<icon src="img/logo.png" gap:platform="ios" width="57" height="57" />
+		<icon src="img/logo.png" gap:platform="ios" width="72" height="72" />
+		<icon src="img/logo.png" gap:platform="ios" width="114" height="114" />
+		<icon src="img/logo.png" gap:platform="ios" width="144" height="144" />
+		<icon src="img/logo.png" gap:platform="android" gap:density="ldpi" />
+		<icon src="img/logo.png" gap:platform="android" gap:density="mdpi" />
+		<icon src="img/logo.png" gap:platform="android" gap:density="hdpi" />
+		<icon src="img/logo.png" gap:platform="android" gap:density="xhdpi" />
+		<icon src="img/logo.png" gap:platform="winphone" />
+		<icon src="img/logo.png" gap:platform="winphone" gap:role="background" />
+		<icon src="img/logo.png" gap:platform="blackberry" />
+		<icon src="img/logo.png" gap:platform="webos" />
+		<icon src="img/logo.png" />
+		<gap:splash src="img/logo.png" gap:platform="ios" width="320" height="480" />
+		<gap:splash src="img/logo.png" gap:platform="ios" width="640" height="960" />
+		<gap:splash src="img/logo.png" gap:platform="ios" width="768" height="1024 " />
+		<gap:splash src="img/logo.png" gap:platform="ios" width="1024" height="768" />
+		<gap:splash src="img/logo.png" gap:platform="android" gap:density="ldpi" />
+		<gap:splash src="img/logo.png" gap:platform="android" gap:density="mdpi" />
+		<gap:splash src="img/logo.png" gap:platform="android" gap:density="hdpi" />
+		<gap:splash src="img/logo.png" gap:platform="android" gap:density="xhdpi" />
+		<gap:splash src="img/logo.png" gap:platform="blackberry" />
+		<gap:splash src="img/logo.png" gap:platform="winphone" />
+		<access origin="http://127.0.0.1*" />
+		<access origin="https://*.amazonaws.com" subdomains="true"  />
+		<gap:plugin name="com.adobe.plugins.gaplugin" />
+		<gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
+		<gap:plugin name="com.phonegap.plugins.facebookconnect" >
+			<param name="APP_ID" value="" /> 
+			<param name="APP_NAME" value="" /> 
+		</gap:plugin>
+	</widget>
